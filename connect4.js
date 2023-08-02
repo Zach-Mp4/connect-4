@@ -102,7 +102,7 @@ class Game{
 
     // place piece in board and add to HTML table
     this.board[y][x] = this.currPlayer;
-    this.placeInTable(y, x);s
+    this.placeInTable(y, x);
 
     // check for tie
     if (this.board.every(row => row.every(cell => cell))) {
